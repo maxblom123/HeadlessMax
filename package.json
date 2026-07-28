@@ -23,5 +23,9 @@
       "eslint --fix",
       "prettier --write"
     ]
+  },
+  "allowScripts": {
+    "esbuild": true,
+    "vue-demi@0.14.10": true
   }
 }
