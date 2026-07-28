@@ -1,0 +1,28 @@
+{
+  "name": "@maxblom123/headlessmax",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxblom123/HeadlessMax.git"
+  },
+  "keywords": [
+    "vue",
+    "headless",
+    "components",
+    "accessibility",
+    "rekaui"
+  ],
+  "peerDependencies": {
+    "reka-ui": "^2.10.1",
+    "vue": "^3.5.40"
+  }
+}
