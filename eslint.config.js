@@ -22,6 +22,12 @@ export default [
     }
   },
   {
+    files: ['**/pages/**/*.vue', '**/app.vue'],
+    rules: {
+      'vue/multi-word-component-names': 'off'
+    }
+  },
+  {
     ignores: ['**/dist/**', '**/node_modules/**']
   }
 ]

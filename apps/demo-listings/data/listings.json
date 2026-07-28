@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "address": "Prinsengracht 263, Amsterdam",
+    "price": 675000,
+    "sqm": 78,
+    "bedrooms": 2,
+    "description": "Charming canal-view apartment in the heart of the Jordaan, featuring original wood beams and a renovated kitchen."
+  },
+  {
+    "id": "2",
+    "address": "Overtoom 145, Amsterdam",
+    "price": 425000,
+    "sqm": 54,
+    "bedrooms": 1,
+    "description": "Bright one-bedroom close to Vondelpark, recently renovated with a private balcony."
+  }
+]
