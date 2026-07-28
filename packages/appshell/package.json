@@ -1,0 +1,43 @@
+{
+  "name": "@maxblom/headlessmax-appshell",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxblom123/HeadlessMax.git"
+  },
+  "keywords": [
+    "vue",
+    "nuxt",
+    "appshell",
+    "feature-flags"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "build": "unbuild"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.40"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.8",
+    "@vue/test-utils": "^2.4.11",
+    "happy-dom": "^20.11.1",
+    "unbuild": "^3.0.0",
+    "vitest": "^4.1.10"
+  }
+}
