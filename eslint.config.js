@@ -7,7 +7,12 @@ export default [
   {
     rules: {
       'no-console': 'warn',
-      'no-debugger': 'error'
+      'no-debugger': 'error',
+      'vue/multi-word-component-names': [
+        'error',
+        { ignores: ['Select', 'Dialog', 'Tabs'] }
+      ],
+      'vue/require-default-prop': 'off'
     }
   },
   {
