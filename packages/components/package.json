@@ -22,16 +22,20 @@
     "rekaui"
   ],
   "scripts": {
-    "test": "vitest run"
+    "test": "vitest run",
+    "story:dev": "histoire dev",
+    "story:build": "histoire build"
   },
   "peerDependencies": {
     "reka-ui": "^2.10.1",
     "vue": "^3.5.40"
   },
   "devDependencies": {
+    "@histoire/plugin-vue": "^0.17.17",
     "@vitejs/plugin-vue": "^6.0.8",
     "@vue/test-utils": "^2.4.11",
     "happy-dom": "^20.11.1",
+    "histoire": "^0.17.17",
     "vitest": "^4.1.10"
   }
 }
