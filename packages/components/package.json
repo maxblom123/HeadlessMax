@@ -1,11 +1,17 @@
 {
-  "name": "@maxblom123/headlessmax",
+  "name": "@maxblom/headlessmax",
   "version": "0.1.0",
   "private": false,
   "type": "module",
-  "main": "./dist/index.js",
-  "module": "./dist/index.js",
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs"
+    }
+  },
   "files": [
     "dist"
   ],
@@ -24,7 +30,8 @@
   "scripts": {
     "test": "vitest run",
     "story:dev": "histoire dev",
-    "story:build": "histoire build"
+    "story:build": "histoire build",
+    "build": "unbuild"
   },
   "peerDependencies": {
     "reka-ui": "^2.10.1",
@@ -36,6 +43,7 @@
     "@vue/test-utils": "^2.4.11",
     "happy-dom": "^20.11.1",
     "histoire": "^0.17.17",
+    "unbuild": "^3.0.0",
     "vitest": "^4.1.10"
   }
 }
